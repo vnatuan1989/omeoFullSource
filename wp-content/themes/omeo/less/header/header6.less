@@ -1,0 +1,73 @@
+
+/*@extend %dropdown;*/
+header {
+  &.header-6 {
+	.yeti_header_middle.extra_width{
+      
+		.logo{
+			padding: 10px 0 0;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+      	.right-area{
+      		margin-top: 25px;
+
+      		.yeti-search-wrapper{
+      			padding-left: 40px;
+      			float: right;
+				padding-top: 8px;
+      		}
+
+      		.yeti-tini-cart-wrapper{
+      			float: right;      			
+      		}
+      	}
+    }
+	  .yeti-sale-policy {
+		  display: inline-block;
+		  padding-left: 20px;
+		  padding-top: 29px;
+		  i {
+			  margin-right: 5px;
+		  }
+		  @media (max-width: 1199px){
+			  display: none;
+		  }
+	  }
+	  .widgets-sidebar{
+		  padding-top: 29px;
+		  display: inline-block;
+		  >li{
+			  display:inline-block;
+			  &+li{
+				  margin-left:15px;
+				  padding-left:15px;
+				  border-left:1px solid rgba(255,255,255,0.3);
+			  }
+			  &.pull-right{
+				  margin:0 15px 0 0;
+				  padding:0 15px 0 0;
+				  border-right:1px solid rgba(255,255,255,0.3);
+				  border-left:none;
+				  &:first-child{
+					  margin:0;
+					  padding:0;
+					  border:none;
+				  }
+			  }
+		  }
+	  }
+	  .main-menu {
+		  text-align: center;
+	  }
+	  .yeti_header_bottom {
+		  border-top: 1px solid @header_line_color;
+	  }
+	  .yt-language {
+		  .yt-label {
+			  display: none;
+		  }
+	  }
+  }
+}

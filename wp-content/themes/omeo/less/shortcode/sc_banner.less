@@ -1,0 +1,78 @@
+
+
+.yeti-banner {
+  position: relative;
+  overflow: hidden;
+  figure {
+    margin: 0;
+    position: relative;
+    > img {
+      .mixin-transition;
+      width: 100%;
+    }
+  }
+  figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6;
+    p {
+      color: inherit;
+      margin: 0;
+    }
+    img {
+      margin: 0;
+    }
+  }
+  &:hover {
+    figure {
+      > img {
+        -moz-transform: scale3d(1.1, 1.1, 1);
+        -o-transform: scale3d(1.1, 1.1, 1);
+        -ms-transform: scale3d(1.1, 1.1, 1);
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1);
+      }
+    }
+  }
+  .yt-banner-hover-overlay {
+    position: absolute;
+    top: 0; left: 0; height: 100%; width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    .mixin-opacity(0);
+    .mixin-transition;
+    &:hover {
+      .mixin-opacity(1);
+    }
+    &:before {
+      content: "";
+      border: 1px solid #fff;
+      top: 25px;
+      left: 25px;
+      right: 25px;
+      bottom: 25px;
+      position: absolute;
+    }
+    .mixin-wp_table {
+      height: 100%;
+      text-align: center;
+    }
+    h3 {
+      position: relative;
+      font-size: 30px;
+      font-family: @special_font;
+      font-style: @special_font_style;
+      color: #fff;
+    }
+    a {
+      position: relative;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: @colorPrimary;
+    }
+  }
+}
+

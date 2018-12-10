@@ -1,0 +1,203 @@
+.woocommerce-product-cat-section {
+  float: left;
+  width: 100%;
+  @media only screen and (max-width: 767px) {
+    overflow: hidden;
+  }
+  > header {
+    padding: 0 0 20px 0;
+    position: relative;
+    z-index: 0;
+    border-bottom:3px solid transparent;
+    background:none;
+    h3 {
+      margin: 0;
+      .h2_font;
+      text-transform:uppercase;
+      @media only screen and (max-width: 991px) {
+        margin-bottom: 20px;
+      }
+      @media only screen and (max-width: 767px) {
+        margin-bottom: 20px;
+      }
+    }
+    .list-inline {
+      position: absolute;
+      top: 0;
+      right: -5px;
+      margin: 3px 0 0;
+      @media only screen and (max-width: 991px) {
+        position: static;
+        float: none !important;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+      }
+      @media only screen and (max-width: 767px) {
+        position: static;
+        float: none !important;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+      }
+
+      li {
+        margin-left:20px;
+        @media (min-width: 768px) and (max-width: 991px){
+          margin-left: 0;
+          margin-right: 10px;
+          padding:0;
+        }
+
+        @media only screen and (max-width: 767px) {
+          margin-left:0;
+          margin-right:10px;
+          padding:0;
+        }
+        a {
+          .h5_font;
+          font-weight: 400 !important;
+          opacity:0.5;
+        }
+      }
+    }
+  }
+  h3.heading-title{
+    .h3_font;
+  }
+  .cat-section-left{
+    padding:0;
+  }
+  .cat-section-right{
+    padding:30px;
+    border:1px solid @main_line_color;
+    border-top-width:0;
+    @media only screen and (max-width: 767px) {
+      border-top-width:1px;
+    }
+  }
+  .no-padding {
+    padding: 0;
+  }
+  .product-tabs {
+    margin-top: 0;
+    .yeti-woo-shortcode{
+      .products{
+        @media only screen and (max-width: 767px) {
+          &.grid.products-none-style.classic-1.border-1{
+            border:none;
+            section.product{
+              &:before{
+                border-right-width:1px;
+              }
+            }
+          }
+        }
+        .owl-nav{
+          .owl-prev{left:1px; background:rgba(255,255,255,0.5);}
+          .owl-next{right:1px; background:rgba(255,255,255,0.5);}
+          @media only screen and (max-width: 767px) {
+            padding:0;
+            .owl-prev,.owl-next{
+              background:#f4f4f4;
+              margin-top:0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .yeti-banner {
+    margin-bottom: 0;
+  }
+  .vc_tta-container .vc_general.vc_tta-tabs {
+    .vc_tta-tabs-container {
+      padding: 0 20px;
+      @media only screen and (max-width: 991px) {
+        ul.vc_tta-tabs-list {
+          li.vc_tta-tab {
+            > a {
+              font-size: 15px !important;
+            }
+            & + li.vc_tta-tab {
+              margin-left: 20px !important;
+            }
+          }
+        }
+      }
+    }
+    .vc_tta-panels-container {
+      .vc_tta-panel-heading {
+        border-radius: 0;
+        margin: 0 -1px 10px;
+      }
+      .vc_tta-panel-body {
+        .yeti-woo-shortcode {
+          border: none;
+          margin: 0 -1px;
+          div.products.owl-carousel .owl-nav div.owl-next {
+            right: 20px;
+          }
+          div.products.owl-carousel .owl-nav div.owl-prev {
+            right: 60px;
+          }
+        }
+      }
+    }
+  }
+  .yeti-woo-shortcode {
+    ul.product_list_widget {
+      li {
+        padding: 25px 0;
+        margin: 0;
+        border-top:1px solid @main_line_color;
+        .product-image{width:25%;}
+        &:first-child{
+          border-top:none;
+          padding-top:0;
+        }
+        @media (max-width: 1023px) and (min-width: 768px) {
+          .product-image {
+            width: auto;
+          }
+          .product-detail {
+            clear: none;
+            padding: 0 0 0 15px;
+          }
+        }
+        @media only screen and (max-width: 991px) {
+          .product-image {
+            width: 30%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce-product-cat-section {
+  > header {
+    h3 {
+      .h2_font;
+    }
+    .list-inline {
+      li {
+        a {
+          .h5_font;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  h3.heading-title{
+    .h3_font;
+  }
+  .cat-section-right{
+    border-color:@main_line_color;
+  }
+  .yeti-woo-shortcode {
+    ul.product_list_widget {
+      li {
+        border-top-color:@main_line_color;
+      }
+    }
+  }
+}

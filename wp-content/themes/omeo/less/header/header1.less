@@ -1,0 +1,49 @@
+header {
+  &.header-1 {
+	  .sticky-wrapper{clear:both;}
+	  .yeti-header-dropdown {
+		  padding-top: 2px;
+	  }
+	  .main-menu > ul > li:last-child {
+		  margin-right: 0;
+	  }
+	  @media (min-width: 992px) {
+		  .yeti_header_middle {
+			  > .row {
+				  display: table;
+				  table-layout: fixed;
+				  width: 100%;
+				  margin: 0;
+				  > [class*="col-"] {
+					  display: table-cell;
+					  float: none;
+					  vertical-align: middle;
+				  }
+			  }
+		  }
+		  .yeti_header_middle {
+			  padding-top: 40px;
+			  padding-bottom: 50px;
+		  }
+		  .is-sticky {
+			  .yeti_header_middle {
+				  padding-top: 10px;
+				  padding-bottom: 10px;
+			  }
+			  .yeti_header_middle_right {
+				  padding-top: 10px;
+				  padding-bottom: 10px;
+			  }
+			  .main-menu {
+				  padding-top: 10px;
+			  }
+		  }
+		  .yeti_header_middle_right {
+			  padding-top: 19px;
+		  }
+		  .main-menu > ul > li {
+			  margin-right:25px;
+		  }
+	  }
+  }
+}

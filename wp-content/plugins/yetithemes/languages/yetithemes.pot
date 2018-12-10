@@ -1,0 +1,1552 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-16 10:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: yetithemes.php:74
+msgid "Settings"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:22
+msgid "Your Rating"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:26
+msgid "Quality"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:44
+#: includes/class.advanced-reviews.php:72
+#: includes/class.advanced-reviews.php:100
+msgid "Rate&hellip;"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:45
+#: includes/class.advanced-reviews.php:73
+#: includes/class.advanced-reviews.php:101
+msgid "Perfect"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:46
+#: includes/class.advanced-reviews.php:74
+#: includes/class.advanced-reviews.php:102
+msgid "Good"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:47
+#: includes/class.advanced-reviews.php:75
+#: includes/class.advanced-reviews.php:103
+msgid "Average"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:48
+#: includes/class.advanced-reviews.php:76
+#: includes/class.advanced-reviews.php:104
+msgid "Not that bad"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:49
+#: includes/class.advanced-reviews.php:77
+#: includes/class.advanced-reviews.php:105
+msgid "Very Poor"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:53
+msgid "Value"
+msgstr ""
+
+#: includes/class.advanced-reviews.php:81
+msgid "Price"
+msgstr ""
+
+#: includes/class.envato_api.php:94
+msgid "Please add your envato tokan in here"
+msgstr ""
+
+#: includes/class.importer.php:390
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/class.importer.php:410
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/class.importer.php:427
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/class.importer.php:485
+msgid "Imported"
+msgstr ""
+
+#: includes/class.importer.php:488
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/class.importer.php:495
+msgid "No Title"
+msgstr ""
+
+#: includes/class.importer.php:638
+msgid "Main Slider Import Success!"
+msgstr ""
+
+#: includes/class.importer.php:643
+msgid "Not found Revolution plugin"
+msgstr ""
+
+#: includes/class.plugin-panel.php:41
+msgid "Welcome to yesshop"
+msgstr ""
+
+#: includes/class.plugin-panel.php:41
+msgid "Yeti Extra"
+msgstr ""
+
+#: includes/class.plugin-panel.php:43
+msgid "Supporting"
+msgstr ""
+
+#: includes/class.plugin-panel.php:43 templates/admin/header.tpl.php:11
+msgid "Support"
+msgstr ""
+
+#: includes/class.plugin-panel.php:44 includes/class.plugin-panel.php:44
+#: templates/admin/header.tpl.php:16
+msgid "Features"
+msgstr ""
+
+#: includes/class.plugin-panel.php:45
+msgid "Theme Improter"
+msgstr ""
+
+#: includes/class.plugin-panel.php:45 templates/admin/header.tpl.php:21
+msgid "Importer"
+msgstr ""
+
+#: includes/class.plugin-panel.php:46 includes/class.plugin-panel.php:46
+#: templates/admin/header.tpl.php:26
+msgid "Our Items"
+msgstr ""
+
+#: includes/class.plugin-panel.php:47 includes/class.plugin-panel.php:47
+msgid "System status"
+msgstr ""
+
+#: includes/class.plugin-panel.php:50
+msgid "Available update"
+msgstr ""
+
+#: includes/class.plugin-panel.php:50
+msgid "New update"
+msgstr ""
+
+#: includes/class.plugin-panel.php:58 templates/admin/header.tpl.php:6
+msgid "About"
+msgstr ""
+
+#: includes/class.push-nofifications.php:23
+#: includes/class.push-nofifications.php:31
+msgid "Push Notifications"
+msgstr ""
+
+#: includes/class.push-nofifications.php:38
+msgid "Enable Registration"
+msgstr ""
+
+#: includes/class.push-nofifications.php:39
+msgid "Enable registration on the \"Checkout\" page"
+msgstr ""
+
+#: includes/class.settings-api.php:227
+msgid "Validate"
+msgstr ""
+
+#: includes/class.settings-api.php:261
+msgid "Hard Crop?"
+msgstr ""
+
+#: includes/class.woocommerce_accessories.php:29
+msgid "Accessories"
+msgstr ""
+
+#: includes/class.woocommerce_accessories.php:30
+#: includes/class.woocommerce_gift.php:63
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/class.woocommerce_accessories.php:42
+msgid ""
+"Accessories are products which you recommend to be bought along with this "
+"product."
+msgstr ""
+
+#: includes/class.woocommerce_gift.php:39
+#: includes/class.woocommerce_gift.php:98
+msgid "Free gift"
+msgstr ""
+
+#: includes/class.woocommerce_gift.php:62
+msgid "Gift product items"
+msgstr ""
+
+#: includes/class.woocommerce_gift.php:75
+msgid "This lets you choose which products are part of this group."
+msgstr ""
+
+#: includes/class.woocommerce_gift.php:98
+msgid "Type"
+msgstr ""
+
+#: includes/instagram.php:322
+msgid "Instagram Image"
+msgstr ""
+
+#: includes/parsers.php:44 includes/parsers.php:76 includes/parsers.php:84
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/parsers.php:45
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/parsers.php:88 includes/parsers.php:93 includes/parsers.php:285
+#: includes/parsers.php:498
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/wordpress-importer.php:134 includes/wordpress-importer.php:143
+#: includes/wordpress-importer.php:196 includes/wordpress-importer.php:200
+#: includes/wordpress-importer.php:209
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: includes/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: includes/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/wordpress-importer.php:201
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/wordpress-importer.php:217
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/wordpress-importer.php:243
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/wordpress-importer.php:270
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/wordpress-importer.php:271
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>"
+"admin</code>s entries."
+msgstr ""
+
+#: includes/wordpress-importer.php:273
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/wordpress-importer.php:283
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/wordpress-importer.php:286
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/wordpress-importer.php:291
+msgid "Submit"
+msgstr ""
+
+#: includes/wordpress-importer.php:305
+msgid "Import author:"
+msgstr ""
+
+#: includes/wordpress-importer.php:316
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/wordpress-importer.php:319
+msgid "as a new user:"
+msgstr ""
+
+#: includes/wordpress-importer.php:327
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/wordpress-importer.php:329
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/wordpress-importer.php:330
+msgid "- Select -"
+msgstr ""
+
+#: includes/wordpress-importer.php:381
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/wordpress-importer.php:433
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:474
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:521 includes/wordpress-importer.php:663
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:548
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:570
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/wordpress-importer.php:629
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/wordpress-importer.php:795
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/wordpress-importer.php:802
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:866
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/wordpress-importer.php:879
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/wordpress-importer.php:928
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/wordpress-importer.php:935
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/wordpress-importer.php:943
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/wordpress-importer.php:948
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/wordpress-importer.php:954
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/wordpress-importer.php:1058
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/wordpress-importer.php:1065
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/wordpress-importer.php:1082
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/wordpress-importer.php:1083
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/wordpress-importer.php:1164
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: includes/yeti-functions.php:123
+msgid "Mobile"
+msgstr ""
+
+#: includes/yeti-functions.php:126
+msgid "Tablet"
+msgstr ""
+
+#: includes/yeti-functions.php:129
+msgid "Desktop"
+msgstr ""
+
+#: includes/yeti-functions.php:141 includes/gallery/class.gallery.php:210
+#: includes/woo-tabs/class-wooTabs.php:234
+msgid "No single tab found!"
+msgstr ""
+
+#: includes/yeti-functions.php:160 includes/woo-tabs/class-wooTabs.php:145
+msgid "No videos found!"
+msgstr ""
+
+#: includes/yeti-functions.php:196
+#: includes/shortcodes/class-woo-shortcodes.php:1134
+msgid "Compare page"
+msgstr ""
+
+#: includes/yeti-functions.php:216
+#: includes/shortcodes/class-woo-shortcodes.php:1116
+msgid "Wishlist page"
+msgstr ""
+
+#: templates/album-gallery.tpl.php:35
+#, php-format
+msgid "%d image"
+msgid_plural "%d images"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/album-gallery.tpl.php:39
+#, php-format
+msgid "%d video"
+msgid_plural "%d videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/compare-page.php:29
+msgid "Product"
+msgstr ""
+
+#: templates/compare-page.php:110
+msgid "No products were added to the compare table"
+msgstr ""
+
+#: templates/compare-page.php:113 templates/compare-page.php:114
+msgid "Return to shop"
+msgstr ""
+
+#: templates/pricing.tpl.php:22
+#, php-format
+msgid "/%s"
+msgstr ""
+
+#: templates/shortcode-comments.tpl.php:15
+msgid "By"
+msgstr ""
+
+#: templates/shortcode-feedburner.tpl.php:5
+msgid "enter your email address"
+msgstr ""
+
+#: templates/shortcode-product-subcaterories.tpl.php:72
+msgid "Show now"
+msgstr ""
+
+#: templates/shortcode-store-locations.tpl.php:43
+msgid "Store location map"
+msgstr ""
+
+#: templates/shortcode-store-locations.tpl.php:57
+msgid "More infomation"
+msgstr ""
+
+#: templates/shortcode-woo-cats.tpl.php:123
+#, php-format
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/shortcode-woo-cats.tpl.php:128
+msgid "Shop Now"
+msgstr ""
+
+#: includes/ajax-search/class-ajax-search.php:86
+msgid "No results"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:42
+msgctxt "post type general name"
+msgid "Galleries"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:43
+msgctxt "post type singular name"
+msgid "Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:44
+msgctxt "admin menu"
+msgid "YETI Galleries"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:45
+msgctxt "add new on admin bar"
+msgid "Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:46
+msgctxt "Gallery"
+msgid "Add New"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:47
+msgid "Add New Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:48
+msgid "New Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:49
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:50
+msgid "View Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:51
+msgid "All Galleries"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:52
+msgid "Search Galleries"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:53
+msgid "Parent Galleries:"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:54
+msgid "No Gallery found."
+msgstr ""
+
+#: includes/gallery/class.gallery.php:55
+msgid "No Gallery found in Trash."
+msgstr ""
+
+#: includes/gallery/class.gallery.php:85
+#: includes/portfolios/class-portfolios.php:71
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:86
+#: includes/portfolios/class-portfolios.php:72
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:87
+#: includes/portfolios/class-portfolios.php:73
+msgid "Search Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:88
+#: includes/portfolios/class-portfolios.php:74
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:89
+#: includes/portfolios/class-portfolios.php:75
+msgid "All Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:92
+#: includes/portfolios/class-portfolios.php:78
+msgid "Edit Category"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:93
+#: includes/portfolios/class-portfolios.php:79
+msgid "Update Category"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:94
+#: includes/portfolios/class-portfolios.php:80
+msgid "Add New Category"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:95
+#: includes/portfolios/class-portfolios.php:81
+msgid "New Category Name"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:96
+#: includes/portfolios/class-portfolios.php:82
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:97
+#: includes/portfolios/class-portfolios.php:83
+msgid "Add or remove Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:98
+#: includes/portfolios/class-portfolios.php:84
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:99
+#: includes/portfolios/class-portfolios.php:85
+msgid "No Categories found."
+msgstr ""
+
+#: includes/gallery/class.gallery.php:100
+#: includes/portfolios/class-portfolios-front.php:362
+#: includes/portfolios/class-portfolios.php:86
+msgid "Categories"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:119
+msgid "Gallery Images / Videos"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:141
+msgid "Gallery style"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:157
+#: includes/gallery/class.gallery.php:172
+msgid "Delete image"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:157
+msgid "&times;"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:170
+msgid "Add Images to Gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:171
+msgid "Add to gallery"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:173
+msgid "Add gallery images"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:202
+msgid "Video Link"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:203
+msgid "Position"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:235
+msgid "Choose an image"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:236
+msgid "Use image"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:243
+msgid "Add image"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:245
+msgid "Remove"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:404
+msgid "View All"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:411
+msgid "Sort by"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:413
+msgid "Date"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:414
+msgid "Title"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:415
+msgid "Random"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:417
+msgid "Sort"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:419
+msgid "DESC"
+msgstr ""
+
+#: includes/gallery/class.gallery.php:420
+msgid "ASC"
+msgstr ""
+
+#: includes/portfolios/class-portfolios-front.php:135
+msgid "ALL"
+msgstr ""
+
+#: includes/portfolios/class-portfolios-front.php:352
+msgid "Customer"
+msgstr ""
+
+#: includes/portfolios/class-portfolios-front.php:357
+msgid "Date post"
+msgstr ""
+
+#: includes/portfolios/class-portfolios-front.php:368
+msgid "Share"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:26
+msgctxt "post type general name"
+msgid "Portfolios"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:27
+msgctxt "post type singular name"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:28
+msgctxt "admin menu"
+msgid "YETI Portfolios"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:29
+msgctxt "add new on admin bar"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:30
+msgctxt "Portfolio"
+msgid "Add New"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:31
+msgid "Add New Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:32
+msgid "New Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:33
+msgid "Edit Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:34
+msgid "View Portfolio"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:35
+msgid "All Portfolios"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:36
+msgid "Search Portfolios"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:37
+msgid "Parent Portfolios:"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:38
+msgid "No Portfolios found."
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:39
+msgid "No Portfolios found in Trash."
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:102
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:103
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:104
+msgid "Search Tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:105
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:106
+msgid "All Tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:109
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:110
+msgid "Update Tag"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:111
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:112
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:113
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:114
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:115
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:116
+msgid "No tags found."
+msgstr ""
+
+#: includes/portfolios/class-portfolios.php:117
+msgid "Tags"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:101
+#: includes/shortcodes/class-shortcodes.php:111
+msgid "My Account"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:159
+msgid "Username"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:160
+msgid "Password"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:161
+msgid "Remember Me"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:162
+msgid "Log In"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:176
+msgid "Sign In"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:189
+msgid "New customer?"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:190
+msgid "Register an account"
+msgstr ""
+
+#: includes/shortcodes/class-shortcodes.php:216
+msgid "Cart:"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:207
+msgid "Load more"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:634
+msgid "All department"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:858
+#, php-format
+msgid "%s Item"
+msgid_plural "%s Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:879
+msgid "All product"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:880
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:1102
+msgid ""
+"This page request to install YITH Woocommerce Compare plugin, please check!"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:1117
+msgid "Wishlist"
+msgstr ""
+
+#: includes/shortcodes/class-woo-shortcodes.php:1135
+msgid "Compare"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:28
+msgctxt "post type general name"
+msgid "Static blocks"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:29
+msgctxt "post type singular name"
+msgid "Block"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:30
+msgctxt "admin menu"
+msgid "YETI Blocks"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:31
+msgctxt "add new on admin bar"
+msgid "Block"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:32
+msgctxt "static block"
+msgid "Add New"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:33
+msgid "Add New Static Blocks"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:34
+msgid "New Block"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:35
+msgid "Edit Block"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:36
+msgid "View Block"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:37
+msgid "Static Blocks"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:38
+msgid "Search Static Blocks"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:39
+msgid "Parent Static Blocks:"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:40
+msgid "No Static blocks found."
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:41
+msgid "No Static blocks found in Trash."
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:88
+msgid "- Select a Static block -"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:103
+msgid "&mdash; Select a Static block &mdash;"
+msgstr ""
+
+#: includes/staticblocks/class-staticblocks.php:110
+#, php-format
+msgid ""
+"<em>Please create an <a href=\"%1$s\">Static Block</a>, then come back here "
+"to selected</em>"
+msgstr ""
+
+#: includes/teams/class-team-members-admin.php:31
+msgid "Role"
+msgstr ""
+
+#: includes/teams/class-team-members-admin.php:34
+msgid "Name"
+msgstr ""
+
+#: includes/teams/class-team-members.php:19
+msgctxt "post type general name"
+msgid "Team Members"
+msgstr ""
+
+#: includes/teams/class-team-members.php:20
+msgctxt "post type singular name"
+msgid "Team Member"
+msgstr ""
+
+#: includes/teams/class-team-members.php:21
+msgctxt "admin menu"
+msgid "YETI Members"
+msgstr ""
+
+#: includes/teams/class-team-members.php:22
+msgctxt "add new on admin bar"
+msgid "Team Members"
+msgstr ""
+
+#: includes/teams/class-team-members.php:23
+msgctxt "Team Member"
+msgid "Add New"
+msgstr ""
+
+#: includes/teams/class-team-members.php:24
+msgid "Add New Member"
+msgstr ""
+
+#: includes/teams/class-team-members.php:25
+msgid "New Member"
+msgstr ""
+
+#: includes/teams/class-team-members.php:26
+msgid "Edit Member"
+msgstr ""
+
+#: includes/teams/class-team-members.php:27
+msgid "View Member"
+msgstr ""
+
+#: includes/teams/class-team-members.php:28
+msgid "All Members"
+msgstr ""
+
+#: includes/teams/class-team-members.php:29
+msgid "Search Members"
+msgstr ""
+
+#: includes/teams/class-team-members.php:30
+msgid "Parent Member:"
+msgstr ""
+
+#: includes/teams/class-team-members.php:31
+msgid "No Members found."
+msgstr ""
+
+#: includes/teams/class-team-members.php:32
+msgid "No Members found in Trash."
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:31
+msgctxt "taxonomy general name"
+msgid "Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:32
+msgctxt "taxonomy singular name"
+msgid "Brand"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:33
+msgid "Search Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:34
+msgid "Popular Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:35
+msgid "All Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:38
+msgid "Edit Brand"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:39
+msgid "Update Brand"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:40
+msgid "Add New Brand"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:41
+msgid "New Brand Name"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:42
+msgid "Separate Brands with commas"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:43
+msgid "Add or remove Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:44
+msgid "Choose from the most used Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:45
+msgid "No Brand found."
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:46
+msgid "Brands"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:66
+#: includes/woo-brands/class-woo-brands.php:144
+#: includes/woo-brands/class-woo-brands.php:245
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:72
+#: includes/woo-brands/class-woo-brands.php:152
+msgid "Upload/Add image"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:74
+#: includes/woo-brands/class-woo-brands.php:154
+msgid "Remove image"
+msgstr ""
+
+#: includes/woo-brands/class-woo-brands.php:224
+msgid "Image"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:17
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:22
+msgid "Default catalog view"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:23
+msgid "Display products in grid or list view by default"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:27
+msgid "Grid"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:28
+msgid "List"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:29
+msgid "Table"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:80
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:81
+msgid "Grid view"
+msgstr ""
+
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:82
+#: includes/woo-gridlisttoggle/class-gridlisttoggle.php:83
+msgid "List view"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:125
+msgid "Videos"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:130
+msgid "Single Tabs"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:169 templates/admin/importer.tpl.php:131
+msgid "Preview"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:185
+msgid "Video URL"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:188
+msgid "Enter the external URL to the youtube or vimeo."
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:196
+msgid "Add Video"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:242
+#: includes/woo-tabs/class-wooTabs.php:329
+msgid "Specification"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:253
+msgid "Single tabs"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:259
+#: includes/woo-tabs/class-wooTabs.php:283
+msgid "Static block"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:260
+#: includes/woo-tabs/class-wooTabs.php:296
+msgid "Priority"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:261
+msgid "Classes"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:273
+msgid "Tab title"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:286
+msgid "Please create a Static Block before select it in here."
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:290
+msgid "Extra classes"
+msgstr ""
+
+#: includes/woo-tabs/class-wooTabs.php:304
+msgid "Add Single Tab"
+msgstr ""
+
+#: templates/admin/header.tpl.php:31
+msgid "System Status"
+msgstr ""
+
+#: templates/admin/header.tpl.php:39
+msgid "Available Update"
+msgstr ""
+
+#: templates/admin/header.tpl.php:46
+#, php-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: templates/admin/header.tpl.php:52
+msgid "Version"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:27
+msgid "Dummy content had imported!"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:33
+msgid "Import Base Dummy Content"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:48
+msgid "Please wait a moment..."
+msgstr ""
+
+#: templates/admin/importer.tpl.php:96
+msgid "Applied"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:99
+msgid "Apply"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:102
+msgid "Import"
+msgstr ""
+
+#: templates/admin/importer.tpl.php:126
+msgid "imported"
+msgstr ""
+
+#: templates/admin/system.tpl.php:27
+#, php-format
+msgid "%s - We recommend setting memory to at least 64MB. See: %s"
+msgstr ""
+
+#: templates/admin/system.tpl.php:27
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: templates/admin/system.tpl.php:34
+msgid "WordPress Environment"
+msgstr ""
+
+#: templates/admin/system.tpl.php:38
+msgid "Home URL"
+msgstr ""
+
+#: templates/admin/system.tpl.php:39
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: templates/admin/system.tpl.php:43
+msgid "Site URL"
+msgstr ""
+
+#: templates/admin/system.tpl.php:44
+msgid "The root URL of your site."
+msgstr ""
+
+#: templates/admin/system.tpl.php:48
+msgid "WP Version"
+msgstr ""
+
+#: templates/admin/system.tpl.php:49
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: templates/admin/system.tpl.php:53
+msgid "WP Multisite"
+msgstr ""
+
+#: templates/admin/system.tpl.php:54
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: templates/admin/system.tpl.php:58
+msgid "WP Memory Limit"
+msgstr ""
+
+#: templates/admin/system.tpl.php:59
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: templates/admin/system.tpl.php:63
+msgid "WP Debug Mode"
+msgstr ""
+
+#: templates/admin/system.tpl.php:64
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: templates/admin/system.tpl.php:68
+msgid "Language"
+msgstr ""
+
+#: templates/admin/system.tpl.php:69
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: templates/admin/system.tpl.php:77
+msgid "Server Environment"
+msgstr ""
+
+#: templates/admin/system.tpl.php:81
+msgid "Server Info"
+msgstr ""
+
+#: templates/admin/system.tpl.php:82
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: templates/admin/system.tpl.php:86
+msgid "PHP Version"
+msgstr ""
+
+#: templates/admin/system.tpl.php:87
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: templates/admin/system.tpl.php:93
+msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+msgstr ""
+
+#: templates/admin/system.tpl.php:99
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: templates/admin/system.tpl.php:101
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: templates/admin/system.tpl.php:107
+#, php-format
+msgid ""
+"%s - We recommend setting max execution time to at least 300. See: <a "
+"href=\"%s\" target=\"_blank\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: templates/admin/system.tpl.php:115
+msgid "PHP Time Limit"
+msgstr ""
+
+#: templates/admin/system.tpl.php:116
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: templates/admin/system.tpl.php:130
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: templates/admin/system.tpl.php:133
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: templates/admin/system.tpl.php:137
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: templates/admin/system.tpl.php:139
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself. If "
+"enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: templates/admin/system.tpl.php:145
+msgid "ZipArchive"
+msgstr ""
+
+#: templates/admin/system.tpl.php:146
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: templates/admin/system.tpl.php:151
+msgid ""
+"ZipArchive is not installed on your server, but is required if you need to "
+"import demo content"
+msgstr ""
+
+#: templates/admin/system.tpl.php:156
+msgid "MySQL Version"
+msgstr ""
+
+#: templates/admin/system.tpl.php:157
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: templates/admin/system.tpl.php:164
+msgid "Max Upload Size"
+msgstr ""
+
+#: templates/admin/system.tpl.php:165
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: templates/admin/system.tpl.php:169
+msgid "DOMDocument"
+msgstr ""
+
+#: templates/admin/system.tpl.php:170
+msgid ""
+"HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
+msgstr ""
+
+#: templates/admin/system.tpl.php:175
+msgid ""
+"Your server does not have the DOMDocument class enabled - HTML/Multipart "
+"emails, and also some extensions, will not work without DOMDocument."
+msgstr ""
+
+#: templates/admin/system.tpl.php:196
+#, php-format
+msgid "Active Plugins (%d)"
+msgstr ""
+
+#: templates/admin/system.tpl.php:208
+#, php-format
+msgid "by %s &ndash; %s"
+msgstr ""
+
+#: templates/admin/system.tpl.php:229
+msgid "Dummy homepage"
+msgstr ""
+
+#: templates/admin/yeti-current-item.tpl.php:6
+msgid "Show more description"
+msgstr ""
+
+#: templates/admin/yeti-item.tpl.php:22
+msgid "View Detail in Themeforest"
+msgstr ""
+
+#: templates/admin/yeti-item.tpl.php:24
+msgid "View Detail"
+msgstr ""
+
+#. Name of the plugin
+msgid "YetiThemes extra"
+msgstr ""
+
+#. Description of the plugin
+msgid "Unit Code Plugin for Yesshop of ThemeYeti"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/themeyeti"
+msgstr ""
+
+#. Author of the plugin
+msgid "Yetithemes"
+msgstr ""

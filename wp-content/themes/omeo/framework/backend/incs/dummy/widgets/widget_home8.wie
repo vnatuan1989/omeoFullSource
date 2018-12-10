@@ -1,0 +1,201 @@
+{
+	"main-widget-area": {
+		"woocommerce_product_tag_cloud-3": {
+			"title": "Product tags",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"header-top-widget-area": {
+		"yesshop_header_dropdown-2": {
+			"title": "",
+			"shortcode": "yesshop_head_top_login",
+			"datas": "",
+			"position": "left",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"yesshop_header_dropdown-3": {
+			"title": "",
+			"shortcode": "yesshop_multi_language",
+			"datas": "",
+			"position": "left",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"yesshop_header_dropdown-4": {
+			"title": "",
+			"shortcode": "yesshop_currency_switcher",
+			"datas": "",
+			"position": "left",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"header-top-widget-area-mb": {
+		"text-16": {
+			"title": "",
+			"text": "<i class=\"fa fa-phone\" aria-hidden=\"true\"><\/i>+0886412389",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"text-17": {
+			"title": "",
+			"text": "<i class=\"fa fa-envelope-o\" aria-hidden=\"true\"><\/i> themeyeti@gmail.com",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"header-left-widget-area": {
+		"yesshop_header_dropdown-5": {
+			"title": "",
+			"shortcode": "yesshop_currency_switcher",
+			"datas": "",
+			"position": "left",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"yesshop_header_dropdown-8": {
+			"title": "",
+			"shortcode": "yesshop_multi_language",
+			"datas": "",
+			"position": "left",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"mobile-menu-widget-area": {
+		"text-21": {
+			"title": "",
+			"text": "[yesshop_currency_switcher]",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"text-22": {
+			"title": "",
+			"text": "[yesshop_multi_language pos=\"right\"]",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"header-middle-widget-area": {
+		"text-7": {
+			"title": "",
+			"text": "[elextron_wishlist_link]",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"text-6": {
+			"title": "",
+			"text": "[elextron_compare_link]",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"blog-page-widget-area-left": {
+		"text-2": {
+			"title": "Custom HTML Block",
+			"text": "<img src=\"http:\/\/demo.nexthemes.com\/wordpress\/elextron\/style1\/wp-content\/uploads\/2017\/02\/blog-static-block.jpg\">\r\n<h3>This is a custom block title<\/h3>\r\n<p>Lorem ipsum dolor sit amet, consecte\r\ntur adipiscing elit. Cras non placerat mi. Etiam non tellus<\/p>",
+			"filter": false,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"tag_cloud-2": {
+			"title": "Tag cloud",
+			"taxonomy": "post_tag",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"archives-3": {
+			"title": "Archives",
+			"count": 1,
+			"dropdown": 0,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"shop-widget-area-left": {
+		"woocommerce_price_filter-3": {
+			"title": "Filter by price",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		},
+		"woocommerce_product_tag_cloud-2": {
+			"title": "Product tags",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"shop-widget-area-right": {
+		"yesshop_product_categories-4": {
+			"title": "Product Categories",
+			"orderby": "name",
+			"dropdown": 0,
+			"count": 0,
+			"hierarchical": "1",
+			"show_children_only": 0,
+			"hide_empty": 0,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": "style-2"
+		},
+		"yesshop_woo_products-3": {
+			"title": "Top Sells",
+			"number": "3",
+			"show": "",
+			"orderby": "sales",
+			"order": "desc",
+			"num_order": 0,
+			"hide_free": 0,
+			"show_hidden": 0,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	},
+	"shop-widget-area-top": {
+		"woocommerce_price_filter-4": {
+			"title": "Filter by price",
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": "col-sm-6"
+		}
+	},
+	"single-product-widget-area-left": {
+		"yesshop_product_categories-3": {
+			"title": "Product Categories",
+			"orderby": "name",
+			"dropdown": 0,
+			"count": 0,
+			"hierarchical": "1",
+			"show_children_only": 0,
+			"hide_empty": 0,
+			"hidden_mb": null,
+			"hidden_sm": null,
+			"css_classes": ""
+		}
+	}
+}

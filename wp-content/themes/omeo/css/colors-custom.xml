@@ -1,0 +1,102 @@
+{"last_tab":"","nth-logo":{"url":"http:\/\/localhost\/yesshop\/theme\/wp-content\/themes\/yesshop\/images\/logo.png","id":"","height":"","width":"","thumbnail":""},"logo-text":"Default logo","404page-stblock":"","pace-loader":"0","nth-pace-logo":{"url":"http:\/\/localhost\/yesshop\/theme\/wp-content\/themes\/yesshop\/images\/logo_pace.png","id":"","height":"","width":"","thumbnail":""},"layout-main":"wide","smooth-scroll":"0","sidebar-widget-style":"default","newsletter-popup":"0","newsletter-popup-content":"","blog-thumbnail-size-width":"870","blog-thumbnail-size-height":"696","blog-thumbnail-list-size-width":"300","blog-thumbnail-list-size-height":"250","blog-thumbnail-widget-size-width":"100","blog-thumbnail-widget-size-height":"67","blog-single-size-width":"1170","blog-single-size-height":"1000","shop-subcat-size-width":"100","shop-subcat-size-height":"100","header-style":"12","header-shipping-text":"
+<span style=\"color: #5a9e74;\">Free shipping<\/span> on order of $100 use code: <span
+style=\"color: #5a9e74;\">shopier<\/span> <a
+title=\"View detail\" href=\"#\">Detail \u2192<\/a>","breadcrum-style":"default","footer-width":"container","footer-stblock":"footer-block","footer-copyright-switch":"1","footer-copyright-text":"","main-right-toolbar":"1","show-social-icons":"1","social-network":[{"icon":"fa fa-facebook-square","link":"#","color":"#6475c2"},{"icon":"fa fa-twitter-square","link":"#","color":"#81cde9"},{"icon":"fa fa-pinterest-square","link":"#","color":"#ea1b1b"},{"icon":"fa fa-google-plus-square","link":"#","color":"#b71212"},{"icon":"fa fa-rss-square","link":"#","color":"#ff9600"}],"toolbar-feedback-url":"","header-font":{"font-family":"Roboto","font-options":"","google":"1","font-weight":"400","font-style":"","text-align":"inherit","font-size":"13px","line-height":"13px","color":"#5D5D5D"},"body-font":{"font-family":"Roboto","font-options":"","google":"1","font-weight":"400","font-style":"","text-align":"inherit","font-size":"13px","line-height":"1.55empx","color":"#5D5D5D"},"footer-font":{"font-family":"Roboto","font-options":"","google":"1","font-weight":"400","font-style":"","text-align":"inherit","font-size":"13px","line-height":"13px","color":"#5D5D5D"},"header-bg-color":"#ffffff","color-light":"#ffffff","color-1":"#5d5d5d","color-2":"#3d3d3d","color-3":"#8d8d8d","color-4":"#5a9e74","color-5":"#3f6e51","color-6":"#007ad1","color-7":"#fd6282","header-top-color":"#ffffff","header-top-background-color":{"color":"#333333","alpha":".8","rgba":"rgba(51,51,51,0.8)"},"shop-layout":"1-0","shop-left-sidebar":"shop-widget-area-left","shop-right-sidebar":"shop-widget-area-right","shop_per_page":"12","shop_columns":"3","shop-product-style":"1","shop-dropdrag-cart":"1","shop-quickshop":"1","nth-cat-infomation":"[rev_slider alias=\"product_catalog\"]","nth-product-deal-format":"Deal ends in <strong>
+%D days %H:%M:%S<
+\/strong>","nth-my-account-track-order":"","product-page-layout":"0-1","product-page-left-sidebar":"","product-page-right-sidebar":"shop-widget-area-right","product-page-footer-block":"","nth_custom_tab_title":"Custom
+tab","custom_tab_content":"Custom tab
+content.","blog-layout":"0-1","blog-left-sidebar":"blog-page-widget-area-right","blog-right-sidebar":"blog-page-widget-area-right","blog-excerpt-length":"55","blog-readmore-button":"1","gallery-fullscreen":"1","gallery-loop":"0","gallery-height":"670","gallery-autoplay":"1","gallery-pauseonhover":"1","gallery-autoplay-delay":"5000","gallery-thumnail-vertical":"0","css_editor":"","color_xml_editor":"<?xml version=
+\"1.0\" encoding=\"UTF-8\" ?>\r\n
+<fonts>\r\n\t
+    <font>\r\n\t\t
+        <title>Header Font<\/title>\r\n\t\t
+            <id>header-font<\/id>\r\n\t\t
+                <subtitle>Header font subtitle<\/subtitle>\r\n\t\t
+                    <google>1<\/google>\r\n\t\t
+                        <output>header, #header<\/output>\r\n\t\t
+                            <def>\r\n\t\t\t
+                                <color>#5d5d5d<\/color>\r\n\t\t\t
+                                    <size>13px<\/size>\r\n\t\t\t
+                                        <family>Roboto<\/family>\r\n\t\t\t
+                                            <weight>400<\/weight>\r\n\t\t\t
+                                                <align>inherit<\/align>\r\n\t\t\t
+                                                    <line_height>13px<\/line_height>\r\n\t\t<\/def>\r\n\t<\/font>\r\n\t
+                                                        <font>\r\n\t\t
+                                                            <title>Body Font<\/title>\r\n\t\t
+                                                                <id>body-font<\/id>\r\n\t\t
+                                                                    <subtitle>body font subtitle<\/subtitle>\r\n\t\t
+                                                                        <default>Roboto<\/default>\r\n\t\t
+                                                                            <output>body<\/output>\r\n\t\t
+                                                                                <def>\r\n\t\t\t
+                                                                                    <color>#5d5d5d<\/color>\r\n\t\t\t
+                                                                                        <size>13px<\/size>\r\n\t\t\t
+                                                                                            <line_height>1.55em<
+                                                                                                \/line_height>\r\n\t\t\t
+                                                                                                <family>Roboto<
+                                                                                                    \/family>\r\n\t\t\t
+                                                                                                    <weight>400<
+                                                                                                        \/weight>\r\n\t\t\t
+                                                                                                        <align>inherit<
+                                                                                                            \/align>\r\n\t\t
+                                                                                                            <
+                                                                                                            \/def>\r\n\t
+                                                                                                            <
+                                                                                                            \/font>\r\n\t\r\n\t
+                                                                                                            <font>
+                                                                                                                \r\n\t\t
+                                                                                                                <title>
+                                                                                                                    Footer
+                                                                                                                    Font
+                                                                                                                    <
+                                                                                                                    \/title>\r\n\t\t
+                                                                                                                    <id>
+                                                                                                                        footer-font
+                                                                                                                        <
+                                                                                                                        \/id>\r\n\t\t
+                                                                                                                        <subtitle>
+                                                                                                                            footer
+                                                                                                                            font
+                                                                                                                            subtitle
+                                                                                                                            <
+                                                                                                                            \/subtitle>\r\n\t\t
+                                                                                                                            <default>
+                                                                                                                                Roboto
+                                                                                                                                <
+                                                                                                                                \/default>\r\n\t\t
+                                                                                                                                <output>
+                                                                                                                                    footer,
+                                                                                                                                    #footer
+                                                                                                                                    <
+                                                                                                                                    \/output>\r\n\t\t
+                                                                                                                                    <def>
+                                                                                                                                        \r\n\t\t\t
+                                                                                                                                        <color>
+                                                                                                                                            #5d5d5d
+                                                                                                                                            <
+                                                                                                                                            \/color>\r\n\t\t\t
+                                                                                                                                            <size>
+                                                                                                                                                13px
+                                                                                                                                                <
+                                                                                                                                                \/size>\r\n\t\t\t
+                                                                                                                                                <family>
+                                                                                                                                                    Roboto
+                                                                                                                                                    <
+                                                                                                                                                    \/family>\r\n\t\t\t
+                                                                                                                                                    <weight>
+                                                                                                                                                        400
+                                                                                                                                                        <
+                                                                                                                                                        \/weight>\r\n\t\t\t
+                                                                                                                                                        <align>
+                                                                                                                                                            inherit
+                                                                                                                                                            <
+                                                                                                                                                            \/align>\r\n\t\t\t
+                                                                                                                                                            <line_height>
+                                                                                                                                                                13px
+                                                                                                                                                                <
+                                                                                                                                                                \/line_height>\r\n\t\t
+                                                                                                                                                                <
+                                                                                                                                                                \/def>\r\n\t
+                                                                                                                                                                <
+                                                                                                                                                                \/font>\r\n\t\r\n
+                                                                                                                                                                <
+                                                                                                                                                                \/fonts>"}

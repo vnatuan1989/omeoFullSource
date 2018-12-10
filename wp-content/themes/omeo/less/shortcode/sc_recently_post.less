@@ -1,0 +1,127 @@
+.yeti-shortcode.recent-post{
+  .yeti-shortcode-header{
+    text-align:center;
+    .title_shortcode;
+  }
+  .list-posts li.post-item .post-item-content{
+    margin-bottom:0;
+  }
+  .yeti-owlCarousel{
+    margin:0 -15px;
+    .list-posts{
+      margin:0;
+      .owl-nav{
+        div{
+          &.owl-prev{left:-50px;}
+          &.owl-next{right:-50px;}
+        }
+        .owl-controls;
+      }
+    }
+  }
+  &.none-padding{
+    .yeti-owlCarousel{
+      .list-posts{
+        .post-item{padding:0;}
+
+      }
+    }
+  }
+  /////// widget
+  .list-post-widget{
+    margin:0;
+    >li.post-item{
+      position:relative;
+      overflow:hidden;
+      margin-bottom:0;
+      .entry-date{
+        color: @light_text_color;
+        padding-bottom: 10px;
+        font-style: italic;
+      }
+      .post-content{
+        .post-title{
+          text-transform:none;
+          margin-bottom: 10px;
+          font-weight: 700;
+          a{
+            padding:0;
+            .changeColor(@main_title_color, @colorPrimary);
+          }
+        }
+        .post-meta{
+          a{
+            .changeColor(@main_text_color, @colorPrimary);
+            border-bottom-color: @main_text_color;
+            font-size:12px;
+            padding:0;
+            text-transform: uppercase;
+          }
+        }
+      }
+      &+li{
+        padding-top:20px;
+        &:before{
+          background:@main_title_color;
+        }
+      }
+    }
+  }
+}
+
+.yeti-shortcode.recent-post{
+  .yeti-owlCarousel{
+    .list-posts{
+      .owl-nav{
+        .mix-owl-controls;
+      }
+    }
+  }
+}
+// extra box recent comments 
+.yt-extra-recent-post {
+  .post-content {
+    position: absolute !important;
+    bottom: 50px;
+  }
+  .post-item-content {
+    &:hover {
+      &:after {
+        content: '';
+        position: absolute;
+        transition: all 0.3s ease-in;
+        background-color: #000;
+        opacity: 0.7;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+  ul.list-inline {
+    background-color: #000 !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 15px;
+  }
+  .entry-date {
+    font-family: @general_font;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .author {
+    a {
+      color: #fff !important;
+      font-style: normal;
+    }
+  }
+  .short-content {
+    display: none; 
+  }
+}
+.yeti-shortcode.recent-post .yeti-owlCarousel .list-posts .owl-nav>div {
+  top: 22%;
+}

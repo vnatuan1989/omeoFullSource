@@ -1,0 +1,21 @@
+
+header {
+    &.header-4{
+      .mobile-menu-btn {
+        .mixin-border-radius(0);
+        text-align: center;
+        i {
+          margin-right: 0;
+        }
+        position: relative;
+        @media (min-width: 992px){
+          &:after {
+            content: "MENU";
+            position: absolute;
+            right: -60px;
+            top: 0;
+          }
+        }
+      }
+    }
+}

@@ -1,0 +1,173 @@
+/*********************************
+ * 3.1.1 Header vertical
+ ********************************/
+body.header-vertical {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 390px;
+    min-height: 800px;
+    padding: 90px 80px;
+    background-color: #070707;
+    height:100%;
+    .mixin-transition;
+    @media only screen and (max-width: 1480px) {
+      width:320px;
+      padding: 80px 40px;
+    }
+    @media only screen and (max-width: 991px) {
+      position:relative;
+      height:auto;
+      width:100%;
+      padding:0;
+      min-height:auto;
+
+    }
+    .logo{margin-bottom:25px;}
+    .main-menu{
+      margin-bottom:25px;
+      >ul.menu{
+        >li.menu-item{
+          display:block;
+          margin:0;
+          >a{
+            padding:17px 0;
+            text-transform:uppercase;
+          .changeColor(#fff, @colorPrimary);
+          }
+          &+li{
+            border-top:1px solid rgba(255,255,255,0.2);
+          }
+          &.menu-item-has-children{
+            >a{
+              span{
+                &:after{
+                  position:absolute;
+                  top:50%;
+                  right:0;
+                  transform:translateY(-50%) rotate(270deg);
+                  -webkit-transform:translateY(-50%) rotate(270deg);
+                }
+              }
+            }
+          }
+          >.sub-menu{
+            margin-left:0;
+          }
+          .sub-menu{
+            right:auto;
+            left:100%;
+            top:0;
+            @media only screen and (max-width: 1400px) {
+              &.yeti-width-5{
+                width:900px;
+              }
+            }
+            @media only screen and (max-width: 1200px) {
+              &.yeti-width-5{
+                width:760px;
+              }
+            }
+            @media only screen and (max-width: 1038px) {
+              &.yeti-width-5{
+                width:660px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .yeti-tini-cart-wrapper{
+      float:none;
+      .nth-shopping-cart .nth-shopping-hover a{
+        color:#fff;
+        p strong{color:#fff;}
+        .arrow_down{opacity:1;}
+      }
+    }
+    .yeti_header_vertical_footer{
+      position: absolute;
+      bottom: 83px;
+      left: 80px;
+      right: 80px;
+      @media only screen and (max-width: 1480px) {
+        left:40px;
+        right:40px;
+      }
+      .searchform{
+        border:1px solid transparent;
+        background-color:transparent;
+        margin-bottom:18px;
+        .input-group{
+          height:40px;
+          padding:0;
+          input.form-control{
+            height:40px;
+            border:none;
+            width:100%;
+            background:none;
+            padding:0 15px;
+          }
+          .input-group-btn{
+            top:0;
+            right:5px;
+            button.btn{
+              height:40px;
+              border:none;
+              background:none;
+              i{margin:0;}
+            }
+          }
+        }
+      }
+      .yeti-sale-policy{
+        .yesshop_social_network{
+          ul li a span{
+            font-size:14px;
+          }
+        }
+      }
+    }
+  }
+  #body-wrapper {
+    .body-wrapper {
+      margin-left: 390px;
+    }
+    #footer{
+      margin-left:390px;
+      @media only screen and (max-width: 767px) {
+        margin:0;
+      }
+    }
+    overflow:hidden;
+    @media only screen and (max-width: 1600px) {
+      .container{width:100%;}
+    }
+    @media only screen and (max-width: 1480px) {
+      .body-wrapper {
+        margin-left: 320px;
+      }
+      #footer{margin-left:320px;}
+      .container{width:100%;}
+    }
+    @media only screen and (max-width: 991px) {
+      .body-wrapper {
+        margin-left: 0;
+      }
+      padding:0;
+      #footer{margin-left:0;}
+    }
+    @media only screen and (max-width: 767px) {
+      .body-wrapper {
+        margin:0;
+      }
+      #footer{margin-left:0;}
+    }
+  }
+  &.offcanvas-right{
+    header{
+      left:-390px;
+    }
+  }
+}

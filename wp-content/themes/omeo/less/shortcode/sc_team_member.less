@@ -1,0 +1,181 @@
+.yesshop_teammember {
+  .owl-stage-outer {
+    padding: 0 0 1px;
+  }
+  .team-member {
+    margin-bottom:30px;
+    .info {
+      background: #eee;
+      padding: 20px;
+      h3 {
+        margin: 0 0 9px;
+        a {
+          .h3_font;
+          .changeColor(@main_title_color, @colorPrimary);
+          text-transform:uppercase;
+        }
+      }
+      em {
+        display: block;
+        margin-bottom: 25px;
+        font-size: 12px;
+        font-style:normal;
+      }
+      p{line-height:24px;}
+      .yeti-social-network {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0;
+        li {
+          display: inline-block;
+          margin-right: 17px;
+          a {
+            display: block;
+            .changeColor(#adadad, @colorPrimary);
+            i {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .owl-nav {
+    .owl-controls;
+    .owl-next {
+      right: 15px !important;
+    }
+    .owl-prev {
+      right: 55px !important;
+    }
+  }
+  .bounce {
+    .team-member {
+      .info {
+        background: #fff;
+        border: 1px solid @main_line_color;
+        .mixin-border-radius(0 0 5px 5px);
+      }
+    }
+  }
+  .overlay {
+    .team-member {
+      position: relative;
+      background: @colorPrimary;
+      img {
+        .mixin-transition;
+      }
+      .info {
+        background: none;
+        position: absolute;
+        top: 100%;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        .mixin-transition;
+        opacity: 0;
+        visibility: hidden;
+        * {
+          color: #fff;
+        }
+        h3 {
+          a {
+            &:hover {
+              color: @colorPrimary;
+            }
+          }
+        }
+      }
+      &:hover {
+        img {
+          opacity: 0;
+        }
+        .info {
+          opacity: 1;
+          visibility: visible;
+          top: 10px;
+        }
+      }
+    }
+  }
+  .overlay-social{
+    margin:0 15px;
+    [class^="col-"]{padding:0;}
+    .team-member{
+      .thumb{
+        position:relative;
+        background:#000;
+        .yeti-social-network{
+          position:absolute;
+          bottom:40px;
+          left:50%;
+          transform:translateX(-50%);
+          -webkit-transform:translateX(-50%);
+          opacity:0;
+          li{
+            padding:0 10px;
+            a{color:#fff;}
+          }
+        }
+      }
+      .info{
+        text-align:center;
+        background:none;
+      }
+      &:hover{
+        .thumb{
+          img{opacity:0.7;}
+          .yeti-social-network{
+            opacity:1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.yesshop_teammember {
+  .team-member {
+    .info {
+      h3 {
+        a {
+          .h3_font;
+          .changeColor(@main_title_color, @colorPrimary);
+        }
+      }
+      .yeti-social-network {
+        li {
+          a {
+            &:hover {
+              color: @colorPrimary;
+            }
+          }
+        }
+      }
+    }
+  }
+  .owl-nav {
+    .mix-owl-controls;
+  }
+  .bounce {
+    .team-member {
+      .info {
+        border-color: @main_line_color;
+      }
+    }
+  }
+  .overlay {
+    .team-member {
+      background:@colorPrimary;
+      .info {
+        h3 {
+          a {
+            &:hover {
+              color: @colorPrimary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

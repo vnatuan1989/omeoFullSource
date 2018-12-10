@@ -1,0 +1,536 @@
+.yeti-pricing {
+  .yeti-pricing-wrapper {
+    border: 10px solid #f8f8f8;
+    position: relative;
+    text-align: center;
+    .mixin-transition;
+    .yeti-pricing-ul {
+      background: #f8f8f8;
+      border: 1px solid @main_line_color;
+      margin: 0;
+      li {
+        &.widget-heading {
+          padding: 15px;
+          background: @colorPrimary;
+          margin: 0;
+          h3.heading-title {
+            color: #fff;
+            margin: 0;
+          }
+        }
+        &.prices {
+          padding: 15px;
+          .price_table {
+            font-size: 15px;
+            display: block;
+            .pricing {
+              display: inline-block;
+              font-size: 50px;
+              color: @colorPrimary;
+              line-height: 1;
+            }
+            .mark {
+              background: none;
+              font-size: 15px;
+              padding: 0;
+              bottom: 0;
+            }
+            sup {
+              font-size: 15px;
+              vertical-align: top;
+              top: 10px;
+            }
+          }
+        }
+        &.feature {
+          border-top: 1px solid @main_line_color;
+          padding: 15px;
+          background: #fff;
+        }
+        &.price-buttons {
+          padding: 15px;
+          border-top: 1px solid @main_line_color;
+          a.btn {
+            .button2;
+          }
+        }
+      }
+    }
+    &.popular {
+      border-color: @colorPrimary;
+      .yeti-pricing-ul {
+        border-color: @colorPrimary;
+        li {
+          &.price-buttons {
+            a.btn {
+              .button;
+            }
+          }
+        }
+      }
+    }
+    &.style-2 {
+      .mixin-transition;
+      &:hover {
+        margin-top: -10px;
+        z-index: 2;
+        .mixin-box-shadow(0 0 6px 6px rgba(0, 0, 0, 0.1));
+      }
+      &.popular {
+        border-color: #f8f8f8;
+        margin: -10px;
+        .mixin-box-shadow(0 0 6px 6px rgba(0, 0, 0, 0.1));
+        z-index: 1;
+        .yeti-pricing-ul {
+          border-color: @main_line_color;
+          li {
+            &.widget-heading {
+              padding: 20px 15px;
+            }
+            &.price-buttons {
+              padding: 20px 15px;
+            }
+          }
+        }
+      }
+    }
+    &.style-3 {
+      overflow: hidden;
+      border: none;
+      .yeti-pricing-ul {
+        border: none;
+        li {
+          &.widget-heading {
+            background: #f8f8f8;
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+          &.prices {
+            background: #ebebeb;
+            margin-bottom: 30px;
+            padding-top: 30px;
+            position: relative;
+            .price_table {
+              .pricing {
+                color: @main_title_color;
+              }
+            }
+            &:after {
+              content: '';
+              display: block;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-color: #ebebeb transparent transparent transparent;
+              border-width: 30px 180px 0 180px;
+              position: absolute;
+              bottom: -30px;
+              left: 50%;
+              margin-left: -180px;
+            }
+          }
+          &.feature {
+            margin: 0 15px;
+            border-top: none;
+            border-bottom: 1px solid @main_line_color;
+            background: none;
+          }
+          &.price-buttons {
+            border-top: none;
+          }
+        }
+      }
+      &:hover {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+        .mixin-box-shadow(0 0 5px 5px rgba(0, 0, 0, 0.1));
+        z-index: 2;
+        .mixin-transition;
+      }
+      &.popular {
+        margin-top: -10px;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        box-shadow: none;
+        .yeti-pricing-ul {
+          li {
+            &.widget-heading {
+              padding-top: 20px;
+              padding-bottom: 20px;
+              background: @colorPrimary;
+              position: relative;
+              &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.1);
+                pointer-events: none;
+              }
+              h3.heading-title {
+                color: #fff;
+              }
+            }
+            &.prices {
+              background: @colorPrimary;
+              * {
+                color: #fff;
+              }
+              .price_table {
+                .pricing {
+                  color: #fff;
+                }
+              }
+              &:after {
+                border-top-color: @main_line_color;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.style-4 {
+      .mixin-transition;
+      &.yeti-pricing-wrapper {
+        border: none;
+        ul.yeti-pricing-ul {
+          background: #ffa800;
+          border: none;
+          color: #fff;
+          .prices .price_table .pricing {
+            color: #fff;
+          }
+          li {
+            margin: 0 10%;
+          }
+          .widget-heading {
+            background: none;
+            padding-top: 30px;
+          }
+          .feature {
+            background: none;
+            border-top-color: rgba(255, 255, 255, 0.2);
+          }
+          .price-buttons {
+            border-top-color: rgba(255, 255, 255, 0.2);
+            a.btn {
+              background: #000;
+              color: #fff;
+            }
+          }
+        }
+      }
+      &:hover {
+        z-index: 2;
+        .mixin-box-shadow(0 0 6px 6px rgba(0, 0, 0, 0.1));
+      }
+      &.popular {
+        &.yeti-pricing-wrapper {
+          .yeti-pricing-ul {
+            background: @colorPrimary;
+            color: #fff;
+            .prices .price_table .pricing {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+    &.style-5 {
+      &.yeti-pricing-wrapper {
+        border: none;
+        ul.yeti-pricing-ul {
+          .widget-heading {
+            background: #fff;
+            padding-top: 30px;
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+          .prices {
+            background: #fff;
+          }
+          .feature {
+            &:nth-child(2n+1) {
+              background: #f6f6f6;
+            }
+          }
+          .price-buttons {
+            background: #000;
+            a.btn {
+              background: #000;
+              color: #fff;
+            }
+          }
+        }
+      }
+      &.popular {
+        &.yeti-pricing-wrapper {
+          ul.yeti-pricing-ul {
+            border-color: @main_line_color;
+            .widget-heading {
+              h3.heading-title {
+                color: @colorPrimary;
+              }
+            }
+            .price-buttons {
+              background: @colorPrimary;
+              a.btn {
+                background: @colorPrimary;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.style-6 {
+      &.yeti-pricing-wrapper {
+        border: none;
+        ul.yeti-pricing-ul {
+          background: #fff;
+          .widget-heading {
+            background: #fff;
+            padding-top: 30px;
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+          .prices {
+            background: #fff;
+            .price_table {
+              display: inline-block;
+              width: 120px;
+              height: 120px;
+              margin: 0 auto;
+              background: @colorPrimary;
+              color: #fff;
+              .mixin-border-radius(100%);
+              padding: 24px 0 0;
+              text-align: center;
+              .pricing {
+                color: #fff
+              }
+            }
+          }
+          .feature {
+            margin: 0 10% 15px;
+            border: 1px solid @main_line_color;
+            .mixin-border-radius(20px);
+            background: none;
+            padding: 10px;
+          }
+          .price-buttons {
+            background: #fff;
+            padding: 0 10% 15px;
+            border: none;
+            a.btn {
+              background: @colorPrimary;
+              color: #fff;
+              display: block;
+              .mixin-border-radius(20px);
+            }
+          }
+        }
+      }
+      &.popular {
+        &.yeti-pricing-wrapper {
+          ul.yeti-pricing-ul {
+            background: @colorPrimary;
+            .widget-heading {
+              background: @colorPrimary;
+              h3.heading-title {
+                color: #fff;
+              }
+            }
+            .prices {
+              background: @colorPrimary;
+              .price_table {
+                background: #000;
+              }
+            }
+            .feature {
+              border-color: rgba(255, 255, 255, 0.2);
+              color: #fff;
+            }
+            .price-buttons {
+              background: @colorPrimary;
+              a.btn {
+                background: #000;
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.yeti-pricing {
+  .yeti-pricing-wrapper {
+    .yeti-pricing-ul {
+      border-color: @main_line_color;
+      li {
+        &.widget-heading {
+          background: @colorPrimary;
+        }
+        &.prices {
+          .price_table {
+            .pricing {
+              color: @colorPrimary;
+            }
+          }
+        }
+        &.feature {
+          border-top-color: @main_line_color;
+        }
+        &.price-buttons {
+          border-top-color: @main_line_color;
+          a.btn {
+            .button2;
+          }
+        }
+      }
+    }
+    &.popular {
+      border-color: @colorPrimary;
+      .yeti-pricing-ul {
+        border-color: @colorPrimary;
+        li {
+          &.price-buttons {
+            a.btn {
+              .button;
+            }
+          }
+        }
+      }
+    }
+    &.style-2 {
+      &.popular {
+        .yeti-pricing-ul {
+          border-color: @main_line_color;
+        }
+      }
+    }
+    &.style-3 {
+      .yeti-pricing-ul {
+        li {
+          &.widget-heading {
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+          &.prices {
+            .price_table {
+              .pricing {
+                color: @main_title_color;
+              }
+            }
+          }
+          &.feature {
+            border-bottom-color: @main_line_color;
+          }
+        }
+      }
+      &.popular {
+        .yeti-pricing-ul {
+          li {
+            &.widget-heading {
+              background: @colorPrimary;
+            }
+            &.prices {
+              background: @colorPrimary;
+              &:after {
+                border-top-color: @colorPrimary;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.style-4 {
+      &.popular {
+        &.yeti-pricing-wrapper {
+          .yeti-pricing-ul {
+            background: @colorPrimary;
+          }
+        }
+      }
+    }
+    &.style-5 {
+      &.yeti-pricing-wrapper {
+        ul.yeti-pricing-ul {
+          .widget-heading {
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+        }
+      }
+      &.popular {
+        &.yeti-pricing-wrapper {
+          ul.yeti-pricing-ul {
+            border-color: @main_line_color;
+            .widget-heading {
+              h3.heading-title {
+                color: @colorPrimary;
+              }
+            }
+            .price-buttons {
+              background: @colorPrimary;
+              a.btn {
+                background: @colorPrimary;
+              }
+            }
+          }
+        }
+      }
+    }
+    &.style-6 {
+      &.yeti-pricing-wrapper {
+        ul.yeti-pricing-ul {
+          .widget-heading {
+            h3.heading-title {
+              color: @main_title_color;
+            }
+          }
+          .prices {
+            .price_table {
+              background: @colorPrimary;
+            }
+          }
+          .feature {
+            border-color: @main_line_color;
+          }
+          .price-buttons {
+            a.btn {
+              background: @colorPrimary;
+            }
+          }
+        }
+      }
+      &.popular {
+        &.yeti-pricing-wrapper {
+          ul.yeti-pricing-ul {
+            background: @colorPrimary;
+            .widget-heading {
+              background: @colorPrimary;
+            }
+            .prices {
+              background: @colorPrimary;
+            }
+            .price-buttons {
+              background: @colorPrimary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

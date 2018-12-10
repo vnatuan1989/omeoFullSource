@@ -1,0 +1,283 @@
+.tparrows {
+  margin-top: -20px;
+}
+/* ================= COUNTDOWN ============== */
+.wd-count_icon {
+  text-align: center;
+  .counter {
+    font-size: 48px;
+  }
+  .wd-information-text {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+}
+
+html .vc_progress_bar .vc_single_bar .vc_label {
+  font-size: 14px;
+}
+
+.mfp-preloader {
+  display: none !important;
+}
+.yeti-quickshop-product {
+  overflow: hidden;
+  &.product div.summary, &.product div.images, &.product div.summary > *:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  &.product div.images .btn_zoom {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html .none-border-responsive > .vc_column-inner{border:none !important;}
+}
+
+// TEXT ON BANNER
+.wpb_text_column.wpb_content_element{position:relative; z-index:1;}
+
+.shortcode-widget-product{
+  .yeti-shortcode-header{
+    margin-bottom:30px;
+    h3.heading-title{
+      font-size:16px;
+    }
+  }
+  .product_list_widget li .product-image{
+    width:40%;
+    position:relative;
+    .lb_num_order{
+      position:absolute;
+      width:25px;
+      height:25px;
+      background:#ff4646;
+      text-align:center;
+      color:#fff;
+      line-height:25px;
+      top:0;
+      left:0;
+      font-size:12px;
+      font-weight:600;
+    }
+  }
+}
+.inside-meta{
+  .yeti-shortcode-header{
+    text-align:center;
+  }
+  .yeti-woo-shortcode{
+    .feature-prod-cat-wrapper{
+      .feature-cat{
+        .feature-cat-inner{
+          position:relative;
+          margin-bottom:30px;
+          a{
+            display:block;
+            line-height:0;
+            position:relative;
+            overflow:hidden;
+            .f-thumbnail{
+              img{
+              .mixin-transition;
+                width:100%;
+              }
+            }
+            &:before{
+              content:'';
+              position:absolute;
+              top:0; left:0; right:0; bottom:0;
+              border-top:5px solid rgba(255, 255, 255, 0.4);
+              border-bottom:5px solid rgba(255, 255, 255, 0.4);
+              .mixin-transition;
+              transform:scale(0,1);
+              -webkit-transform:scale(0,1);
+              opacity:0;
+              z-index:1;
+            }
+            &:after{
+              content:'';
+              position:absolute;
+              top:0; left:0; right:0; bottom:0;
+              border-left:5px solid rgba(255, 255, 255, 0.4);
+              border-right:5px solid rgba(255, 255, 255, 0.4);
+              .mixin-transition;
+              transform:scale(1,0);
+              -webkit-transform:scale(1,0);
+              opacity:0;
+            }
+            &:hover{
+              &:before, &:after{
+                transform:scale(1,1);
+                -webkit-transform:scale(1,1);
+                opacity:1;
+              }
+              .f-thumbnail{
+                img{
+                  transform:scale(1.2);
+                  -webkit-transform:scale(1.2);
+                }
+              }
+            }
+            .f-meta{
+              position:absolute;
+              display:flex;
+              justify-content: center;
+              -webkit-justify-content: center;
+              flex-direction: column;
+              -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+              top:0;
+              left:0;
+              right:0;
+              bottom:0;
+              h3, h2{
+                text-transform:uppercase;
+                color:#fff;
+                margin-bottom:0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .owl-nav{
+      div{
+        &:before{font-size:40px; line-height:20px;}
+        &.owl-prev{left:-50px;}
+        &.owl-next{right:-50px;}
+        @media (max-width:1200px) {
+          &.owl-prev {
+            left:0 !important;
+          }
+          &.owl-next {
+            right:0 !important;
+          }
+        }
+        @media (max-width: 1023px) and (min-width: 768px) {
+          &.owl-prev {
+            left:0 !important;
+          }
+          &.owl-next {
+            right:0 !important;
+          }
+        }
+        @media only screen and (max-width: 767px) {
+          &:before{
+            font-size:30px !important;
+          }
+        }
+      }
+    .owl-controls;
+    }
+  }
+}
+
+
+#fp-nav.right{right:50px;}
+#fp-nav{
+  z-index:1000;
+  ul li{
+    height:14px;
+    a{
+      span{
+        width:8px;
+        height:8px;
+        background:#fff;
+      .mixin-box-shadow(0 0px 2px 0 rgba(0,0,0,0.2));
+      }
+      &:hover{
+        span{
+          width: 8px;
+          height: 8px;
+          margin: -2px 0 0 -2px;
+          transform: scale(2.5);
+          transform-origin: center center;
+          background-clip: content-box;
+          border: 1px solid #fff;
+          padding: 1px;
+        }
+      }
+      &.active{
+        span{
+          width: 8px !important;
+          height: 8px !important;
+          margin: -2px 0 0 -2px !important;
+          transform: scale(2.5);
+          transform-origin: center center;
+          background-clip: content-box;
+          border: 1px solid #fff;
+          padding: 1px;
+        }
+      }
+    }
+  }
+}
+
+
+.yith-wcwl-share {
+  .yith-wcwl-share-title {
+    display: inline;
+    vertical-align: middle;
+  }
+  > ul {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+    height: auto;
+    li {
+      padding: 0 5px;
+      height: auto;
+      margin-bottom: 0;
+      a {
+        background: none !important;
+        color: @light_text_color;
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        padding: 0 5px;
+        &:hover {
+          color: @colorPrimary;
+        }
+        &:before {
+        .mixin-font-awesome(18px);
+        }
+        &.facebook:before {content: "\f09a";}
+        &.twitter:before {content: "\f099";}
+        &.pinterest:before {content: "\f231";}
+        &.googleplus:before {content: "\f0d5";}
+        &.email:before {content: "\f003";}
+      }
+    }
+  }
+}
+.site-main.content {
+  margin-bottom: 40px;
+}
+.yeti-loading.dark .yeti-spinner .folding-cube .cube:before {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+html .autocomplete-suggestions .autocomplete-suggestion .suggestion-prices{
+  position:static;
+  text-align:left;
+}
+
+.yeti-isotope + .text-center {margin-top: 60px;}
+.yt-text-align-center .pull-left {
+  float: none !important;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+

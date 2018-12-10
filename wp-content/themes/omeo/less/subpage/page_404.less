@@ -1,0 +1,59 @@
+.page-404{
+  .figure-404 {
+    padding: 20px 0 40px;
+  }
+  .heading-404-info{
+    font-size:18px;
+    font-weight:400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+  }
+  .return-home{
+    font-size:14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    a{
+      color:@colorPrimary;
+      border-bottom: 1px solid @colorPrimary;
+      display: inline-block;
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+  .searchform {
+    max-width: 470px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    .input-group {
+      background: #f6f7fb;
+    }
+    .form-control {
+      border: 0 none;
+      .mixin-box-shadow(none);
+    }
+    .btn {
+      background: none;
+      padding: 0 20px;
+      color: #000;
+      i {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.page-404{
+  .heading-404{
+    color:@colorPrimary;
+  }
+  p{
+    a{color:@colorPrimary;}
+  }
+  .searchform .input-group {
+    background-color: @box_bg_color;
+  }
+}

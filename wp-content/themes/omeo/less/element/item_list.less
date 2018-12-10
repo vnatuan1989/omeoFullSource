@@ -1,0 +1,39 @@
+div.products.list.products-none-style.classic-1{
+  &.border-1{
+    border:1px solid @main_line_color;
+    margin-left: 15px;
+    margin-right: 15px;
+    section.product{
+      padding:30px 20px;
+      position:relative;
+      margin-bottom:0;
+      background:#fff;
+      &:after{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        border-top:1px solid @main_line_color;
+        pointer-events:none;
+      }
+      &:first-child{
+        &:after{
+          border-top:none;
+        }
+      }
+      .title-wrap{
+        h3{
+          min-height:0;
+        }
+      }
+      .title-wrap .price-wrapper{
+        width:auto;
+      }
+      .description{
+        display:block;
+      }
+    }
+  }
+}

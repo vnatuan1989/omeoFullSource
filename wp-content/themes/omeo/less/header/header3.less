@@ -1,0 +1,37 @@
+
+/*@extend %dropdown;*/
+header {
+  &.header-3 {
+    .yeti_header_middle{
+      background:none;
+      padding: 20px 0;
+      .searchform .input-group .input-group-btn button{
+        color: inherit;
+      }
+      .nth-shopping-cart .nth-shopping-hover .arrow_down {
+        .mixin-opacity(1);
+      }
+      @media (min-width: 992px) {
+        > .row {
+          width: 100%;
+          margin: 0;
+          display: table;
+          > [class^="col-"] {
+            display: table-cell;
+            float: none;
+            vertical-align: middle;
+            padding: 0;
+            .logo {
+              padding-right: 15px;
+            }
+          }
+        }
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,91 @@
+.yeti_best_selling_products{
+  .products{
+    section.product{
+      &.sale{
+        .yeti-countdown {
+          margin:0;
+          div {
+            width: 25%;
+            padding: 20px 0;
+            height: auto;
+            .mixin-border-radius(0);
+            .mixin-box-shadow(0 0px 4px 2px rgba(0,0,0,0.05));
+            margin-right:0;
+          }
+          span {
+            font-size:1.9em;
+            line-height:24px;
+          }
+        }
+      }
+    }
+  }
+  .owl-nav{
+    div{
+      &:before{font-size:72px; line-height:20px;}
+      &.owl-prev{left:-50px;}
+      &.owl-next{right:-50px;}
+    }
+  }
+}
+
+.yeti-sb-best-selling {
+  > .vc_column_container {
+    padding-left: 15px;
+    padding-right: 15px;
+    > .vc_column-inner  {
+      width: 630px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      float: none;
+      position: relative;
+      > .wpb_wrapper {
+        position: relative;
+        z-index: 1;
+        padding: 10% 12%;
+        min-height: 630px;
+      }
+      &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        background-color: rgba(0,0,0,0.7);
+        border: 1px solid @colorPrimary;
+        .mixin-border-radius(40px);
+        @media (min-width: 768px) {
+          .mixin-transform(rotate(-15deg));
+          .mixin-border-radius(30%);
+        }
+      }
+      .wpb_content_element {
+        position: static;
+      }
+      .price-box-special {
+        position: absolute;
+        right: -100px;
+        bottom: 200px;
+        @media (max-width: 767px) {
+          margin: 0 auto 40px;
+          position: static;
+        }
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  .btn {
+    i {
+      font-size: 19px;
+      margin-left: 10px;
+      line-height: 16px;
+      vertical-align: middle;
+    }
+  }
+}

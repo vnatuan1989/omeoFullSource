@@ -1,0 +1,112 @@
+.yeti_featured_products {
+  .yt-item-type-shadow-1.list{
+    section.product{
+      margin:0 0 30px;
+      &:after{
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:15px;
+        right:15px;
+        .mixin-box-shadow(0 2px 11px 0 rgba(0, 0, 0, 0.08));
+        .mixin-border-radius(5px);
+        pointer-events: none;
+        z-index: -1;
+      }
+      .image-wrap{
+        width:50%;
+      }
+      .title-wrap{
+        float: none;
+        overflow: hidden;
+        width: auto;
+        text-align: left;
+        border: none;
+        padding: 25px 30px;
+        a.button{
+          transform: translateX(0);
+          -webkit-transform: translateX(0);
+        }
+      }
+    }
+  }
+}
+
+.yeti-featured-list-mode-2 {
+  .products {
+    font-size: inherit;
+    .product {
+      padding-left: 15px;
+      padding-right: 15px;
+      &:not(:last-child) {
+        margin-bottom: 50px;
+      }
+      .product-summary {
+        float: left;
+        width: 50%;
+        padding-top: 5%;
+        .product-buttons-extra,
+        .product-cat-lable {
+          display: none;
+        }
+        .woocommerce-loop-product__title {
+          margin-bottom: 25px;
+        }
+        .product-buttons {
+          padding-top: 30px;
+          .button {
+            &:after {
+            .mixin-font-custom(OrganicsFont, 19px);
+              content: "\0045";
+              line-height: 16px;
+              margin-left: 10px;
+              vertical-align: top;
+            }
+          }
+        }
+        .yeti-countdown {
+          padding-top: 30px;
+        }
+        ol {
+          margin-left: 20px;
+        }
+      }
+      .product-image {
+        float: right;
+        width: 50%;
+        display: block !important;
+        .price-wrapper {
+        .mixin-pricebox(125px, @colorPrimary);
+          position: absolute;
+          bottom: 100px;
+          left: 50px;
+        }
+      }
+      @media (min-width: 768px) {
+        &:nth-child(2n+1) {
+          .product-summary {
+            float: right;
+          }
+          .product-image {
+            float: left;
+            .price-wrapper {
+              right: 50px;
+              left: auto;
+            }
+          }
+        }
+      }
+      @media (max-width: 767px) {
+        .product-image,
+        .product-summary {
+          float: none;
+          width: 100%;
+        }
+        .product-summary {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

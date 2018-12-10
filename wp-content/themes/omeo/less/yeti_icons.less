@@ -1,0 +1,128 @@
+/*********************************
+ * Font icons
+ ********************************/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "YetiIcons";
+  src:url("../fonts/yeti-yesshop.svg");
+  src:url("../fonts/yeti-yesshop.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/yeti-yesshop.woff") format("woff"),
+  url("../fonts/yeti-yesshop.ttf") format("truetype"),
+  url("../fonts/yeti-yesshop.svg#YetiIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "YetiIcons";
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yeti-icon:before{
+  font-family: "YetiIcons";
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yeti-letter:before {content: "\61";}
+.yeti-phone-reciever:before {content: "\62";}
+.yeti-shopping-bag-o:before {content: "\63";}
+.yeti-shopping-bag:before {content: "\64";}
+
+.yeti-2x {font-size: 2em;}
+.yeti-3x {font-size: 3em;}
+.yeti-4x {font-size: 4em;}
+.yeti-5x {font-size: 5em;}
+
+
+
+@font-face {
+  font-family: 'OrganicsFont';
+  src: url('../fonts/OrganicsFont.eot');
+  src: url('../fonts/OrganicsFont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OrganicsFont.woff') format('woff'),
+  url('../fonts/OrganicsFont.ttf') format('truetype'),
+  url('../fonts/OrganicsFont.svg#OrganicsFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class*='icon-']:before{
+  display: inline-block;
+  font-family: 'OrganicsFont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+
+.icon-list:before{content:'\0041';}
+.icon-grid:before{content:'\0042';}
+.icon-left-arrow:before{content:'\0043';}
+.icon-right-arrow:before{content:'\0044';}
+.icon-right-arrow-1:before{content:'\0045';}
+.icon-close:before{content:'\0046';}
+.icon-checked:before{content:'\0047';}
+.icon-left-arrow-2:before{content:'\0048';}
+.icon-right-arrow-2:before{content:'\0049';}
+.icon-left-arrow-revo:before{content:'\004a';}
+.icon-right-arrow-revo:before{content:'\004b';}
+
+
+
+
+
+
+
+[data-icon],
+[class^="icon-"],
+[class*=" icon-"] {
+  &:before {
+    font-family: "YetiIcons";
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+
+.icon-yeti-cart:before {
+  content: "\61";
+}
+
+.icon-yeti-compare:before {
+  content: "\62";
+}
+
+.icon-yeti-search:before {
+  content: "\63";
+}
+
+.icon-yeti-wishlist:before {
+  content: "\64";
+}
+

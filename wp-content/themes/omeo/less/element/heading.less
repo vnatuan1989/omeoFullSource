@@ -1,0 +1,234 @@
+
+.title_features {
+  .h5_font;
+  .changeColor(@main_title_color, @colorPrimary);
+  text-transform: uppercase;
+}
+.title_shortcode {
+  margin-bottom: 50px;
+  .heading-title {
+    display: inline-block;
+    padding-bottom: 7px;
+    position: relative;
+    margin-bottom: 0;
+  }
+}
+.title_widget {
+  margin-bottom: 30px;
+  .widget-title {
+    position: relative;
+    margin-bottom: 0;
+    .sidebar_heading_font;
+    color: @main_title_color;
+    text-transform: none;
+  }
+}
+.title_sidebar {
+  position: relative;
+  margin-bottom: 30px;
+  .sidebar_heading_font;
+  color: @main_title_color;
+  text-transform: none;
+}
+.yeti-shortcode-header {
+  .title_shortcode;
+}
+.widget-heading {
+  .title_widget;
+}
+
+
+.yeti-shortcode-header {
+  .heading-title {
+    color: @main_title_color;
+  }
+}
+
+.widget-heading {
+  .widget-title {
+    color: @main_title_color;
+    .sidebar_heading_font;
+  }
+}
+.classic_rounded .widget-heading .widget-title{
+  .h2_font;
+}
+
+.heading-title {
+  margin-bottom: 40px;
+  .custom_heading_font;
+  small {
+    display: block;
+    .general_font;
+    color: @colorPrimary;
+  }
+  &.ud-line {
+    margin-bottom: 65px;
+    span {
+      display: inline-block;
+      padding-bottom: 7px;
+      position: relative;
+      &:before {
+        content: '';
+        width: 70px;
+        height: 1px;
+        background: @colorPrimary;
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        margin-left: -35px;
+      }
+    }
+  }
+  &.text-capitalize{
+    text-transform:capitalize !important;
+  }
+  &.text-lowercase{
+    text-transform:lowercase !important;
+  }
+  &.heading-style-2 {
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+    span {
+      display: block;
+    }
+    small {
+      display: inline-block;
+      font-size: 0;
+      line-height: 1;
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      margin-left: -27px;
+      &:before {
+        content: "\f18c";
+        .mixin-font-awesome(18px);
+        width: 54px;
+        text-align: center;
+      }
+    }
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 1px;
+      background-color: @colorPrimary;
+      position: absolute;
+      bottom: 0;
+
+    }
+    &:before {
+      margin-left: -100px;
+      left: 50%;
+    }
+    &:after {
+      right: 50%;
+      margin-right: -100px;
+    }
+  }
+  &.heading-style-3 {
+    span {
+      display: inline-block;
+    }
+    small {
+      font-style: italic;
+      padding-top: 20px;
+      font-size: 18px;
+    }
+  }
+  &.heading-style-4,
+  &.heading-style-5 {
+    small {
+      display: block;
+      text-transform: uppercase;
+      font-style: normal;
+      letter-spacing: 0.1em;
+      font-size: 14px;
+
+    }
+  }
+  &.heading-style-4 {
+    small {
+      padding-top: 10px;
+      color: @colorPrimary;
+    }
+  }
+  &.heading-style-5 {
+    small {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+/* Heading Type ============== */
+/*.heading_block_type_line_bottom {
+  .heading-title > span {
+    position: relative;
+    &:before {
+      content:"";
+      width: 70px;
+      height: 1px;
+      background: @colorPrimary;
+      position: absolute;
+      bottom: -20px;
+      left: 50%;
+      margin-left: -35px;
+    }
+  }
+}*/
+
+/* Heading Align ================ */
+.heading_align_center {
+  .yeti-shortcode-header,
+  .heading-title {
+    text-align: center;
+    &.text-center {
+      text-align: center;
+    }
+  }
+}
+.heading_align_right {
+  .yeti-shortcode-header,
+  .yeti-shortcode,
+  .heading-title {
+    text-align: right;
+    &.text-right {
+      text-align: right;
+    }
+  }
+}
+.heading_align_left {
+  .yeti-shortcode-header,
+  .yeti-shortcode,
+  .heading-title {
+    text-align: left;
+  }
+}
+.heading-title.text-left {
+  text-align: left;
+}
+.heading-title.text-right {
+  text-align: right;
+}
+.heading-title.text-center {
+  text-align: center;
+}
+/**/
+.heading-title.text-uppercase {
+  text-transform: uppercase;
+}
+.heading-title.color-white {
+  color: #fff;
+}
+.heading-title.heading-style-6-background {
+  background: @main_title_color;
+  color: #fff;
+  font-size: @general_font_size;
+  font-weight: 700;
+  display: inline-block;
+  padding: 3px 0px 3px 5px;
+  letter-spacing: 0.6em;
+  margin-bottom: 0;
+}
